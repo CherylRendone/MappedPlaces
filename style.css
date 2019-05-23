@@ -1,0 +1,123 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text;
+    color: transparent;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.topnav {
+    background-color: #fa3ec2;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Styles Links Inside The Navigation Bar*/
+.topnav a{
+    float: left;
+    color: #43fadb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: limegreen;
+    color: darkmagenta;
+}
+
+.topnav a.active {
+    background-color: #103fa5;
+    color: white;
+}
+
+
+/* ---- Layout Containers ---- */
+
+
+
+
+
+
+/* ---- Page Elements ---- */
+
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 730px){
+
+.topnav a {
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+}
+
+
+@media (min-width: 968px) {
+
+ .topnav a {
+        justify-content: space-around;
+        font-size: 30px;
+ }
+
+}
+
+
+@media (min-width: 1015px) {
+
+  .img {
+        width: 80%;
+ }
+     
+}
+
+
+@media (min-width: 1360px) {
+
+    .img {
+        width: 75%;
+    }
+    
+}
+
+@media (min-width: 1425px) {
+
+    .img {
+        width: 68%;
+    }
+}
